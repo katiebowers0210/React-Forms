@@ -4,7 +4,7 @@ import { useState } from "react";
 //components have a return statement
 //export default goes first
 
-export default function SignUpForm( {setToken}) {
+function SignUpForm( {setToken}) {
       //create 3 state variables
       const [username, setUsername] = useState('');
       const [password, setPassword] = useState('');
@@ -61,3 +61,6 @@ export default function SignUpForm( {setToken}) {
     </>
     )
 }
+
+
+export default SignUpForm

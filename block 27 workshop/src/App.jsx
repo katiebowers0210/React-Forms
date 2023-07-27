@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Authenticate from './components/Authenticate.jsx'
 import SignUpForm from './components/SignUpForm.jsx'
 
-export default function App() {
+function App() {
 
   const [token, setToken] = useState(null)
 
@@ -17,4 +17,4 @@ export default function App() {
   )
 }
 
-
+export default App
